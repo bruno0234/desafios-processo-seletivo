@@ -8,13 +8,15 @@ public class Challenge2 {
 		System.out.println("Using solution 1:\n");
 		for (int i = -10; i < 11; i++) {
 			System.out.println(
-				"Is " + i + " a Fibonacci number? " + isFibNum1(i)
+				"Is " + i + " a Fibonacci number? "
+				+ (isFibNum1(i) ? "Yes" : "No")
 			);
 		}
 		System.out.println("\nUsing solution 2:\n");
 		for (int i = -10; i < 11; i++) {
 			System.out.println(
-				"Is " + i + " a Fibonacci number? " + isFibNum2(i)
+				"Is " + i + " a Fibonacci number? "
+				+ (isFibNum2(i) ? "Yes" : "No")
 			);
 		}
 	}
